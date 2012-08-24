@@ -162,7 +162,7 @@ public class Record_simple_exploration implements SafeAppShutdown{
 		SysTools.install(new SysTools(), "TERM");
 		SysTools.install(new SysTools(), "INT");
 		SysTools.install(new SysTools(), "ABRT");
-		SysTools.install(new SysTools(), "SEGV");
+		//SysTools.install(new SysTools(), "SEGV");
 
 		IGGS_console console = new IGGS_console(null, null);
 		String delim = "\"";
